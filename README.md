@@ -14,24 +14,16 @@
 | 4 | [小红书爆款文案生成器](./xiaohongshu_writer（小红书爆款文案生成器）/SKILL.md) | 提示词 + 联网搜索 | **9.9 元/次** | 5版标题+正文+标签+配图建议+发布策略 |
 | 5 | [体检报告解读助手](./health_report_reader（体检报告解读助手）/SKILL.md) | 提示词 + 知识库 | **19.9 元/次** | 逐项解读指标含义，异常标注+就医/生活方式建议 |
 
-## 🚀 快速使用
+## 🚀 快速部署（2分钟/个）
 
-### 新手用户（直接安装使用）
+### 最简单方式（推荐）
 
-1. 打开 [扣子技能商店](https://www.coze.cn/skills)
-2. 搜索「简历优化大师」
-3. 点击安装，即刻使用
+1. 打开 https://code.coze.cn
+2. 找到你想部署的Skill目录，打开里面的 `DEPLOY.md`
+3. 把里面的内容复制粘贴到扣子编程对话框，发送
+4. AI自动生成 → 点「部署」→ 设置定价 → 提交审核
 
-### 开发者（导入本地 Skill 包）
-
-```bash
-# 进入对应 Skill 目录，打包为 .zip
-cd resume_optimizer（简历优化大师）
-zip -r resume_optimizer.skill *
-```
-# 在扣子编程中上传
-# 打开 https://code.coze.cn → 技能 → 上传技能文件包
-```
+> 5个Skill都有各自的 DEPLOY.md，点进去就能看到。每个Skill内含完整Prompt、工作流逻辑和知识库，粘贴即用。
 
 ## 📁 目录结构
 
@@ -41,6 +33,7 @@ coze-skills/
 ├── .gitignore
 ├── resume_optimizer（简历优化大师）/          ← ① 简历优化大师
 │   ├── SKILL.md
+│   ├── DEPLOY.md
 │   ├── references/
 │   │   ├── ats_keywords.md
 │   │   ├── self_eval_template.md
@@ -52,6 +45,7 @@ coze-skills/
 │       └── store_listing.md
 ├── ppt_generator（一句话PPT生成器）/          ← ② 一句话PPT生成器
 │   ├── SKILL.md
+│   ├── DEPLOY.md
 │   ├── references/
 │   │   ├── chart_suggestions.md
 │   │   ├── hook_phrases.md
@@ -60,6 +54,7 @@ coze-skills/
 │       └── store_listing.md
 ├── contract_scanner（合同风险扫描仪）/        ← ③ 合同风险扫描仪
 │   ├── SKILL.md
+│   ├── DEPLOY.md
 │   ├── references/
 │   │   ├── legal_basics.md
 │   │   └── risk_patterns.md
@@ -67,6 +62,7 @@ coze-skills/
 │       └── store_listing.md
 ├── xiaohongshu_writer（小红书爆款文案生成器）/ ← ④ 小红书爆款文案生成器
 │   ├── SKILL.md
+│   ├── DEPLOY.md
 │   ├── references/
 │   │   ├── niche_terms.md
 │   │   └── title_formulas.md
@@ -74,6 +70,7 @@ coze-skills/
 │       └── store_listing.md
 └── health_report_reader（体检报告解读助手）/   ← ⑤ 体检报告解读助手
     ├── SKILL.md
+    ├── DEPLOY.md
     ├── references/
     │   ├── indicator_guide.md
     │   └── normal_ranges.md
