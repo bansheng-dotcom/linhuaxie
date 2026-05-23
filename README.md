@@ -37,19 +37,48 @@ zip -r resume_optimizer.skill *
 
 ```
 coze-skills/
-├── resume_optimizer/              ← 简历优化大师 Skill
-│   ├── SKILL.md                   ← 核心：完整 System Prompt + 工作流
-│   ├── references/                ← 知识库（AI自动调用）
-│   │   ├── ats_keywords.md        ← 8大行业ATS关键词库
-│   │   ├── star_examples.md       ← STAR法则改写示例
-│   │   ├── verb_thesaurus.md      ← 弱动词→强动词替换表
-│   │   └── self_eval_template.md  ← 自我评价改写模板
-│   ├── scripts/
-│   │   └── keyword_matcher.py     ← 工作流代码节点
-│   └── assets/
-│       └── store_listing.md       ← 商店上架文案
+├── README.md                          ← 项目说明书
 ├── .gitignore
-└── README.md
+├── resume_optimizer/                  ← ① 简历优化大师
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── ats_keywords.md
+│   │   ├── self_eval_template.md
+│   │   ├── star_examples.md
+│   │   └── verb_thesaurus.md
+│   ├── scripts/
+│   │   └── keyword_matcher.py
+│   └── assets/
+│       └── store_listing.md
+├── ppt_generator/                     ← ② 一句话PPT生成器
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── chart_suggestions.md
+│   │   ├── hook_phrases.md
+│   │   └── templates.md
+│   └── assets/
+│       └── store_listing.md
+├── contract_scanner/                  ← ③ 合同风险扫描仪
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── legal_basics.md
+│   │   └── risk_patterns.md
+│   └── assets/
+│       └── store_listing.md
+├── xiaohongshu_writer/                ← ④ 小红书爆款文案生成器
+│   ├── SKILL.md
+│   ├── references/
+│   │   ├── niche_terms.md
+│   │   └── title_formulas.md
+│   └── assets/
+│       └── store_listing.md
+└── health_report_reader/              ← ⑤ 体检报告解读助手
+    ├── SKILL.md
+    ├── references/
+    │   ├── indicator_guide.md
+    │   └── normal_ranges.md
+    └── assets/
+        └── store_listing.md
 ```
 
 ## 💰 变现方式
