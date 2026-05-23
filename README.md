@@ -8,11 +8,11 @@
 
 | # | Skill 名称 | 类型 | 定价 | 简介 |
 |:--:|------|------|:--:|------|
-| 1 | [简历优化大师](./resume_optimizer/SKILL.md) | 提示词 + 工作流 | **9.9 元/次** | ATS关键词匹配 + STAR法则改写，提升面试邀约率 |
-| 2 | [一句话PPT生成器](./ppt_generator/SKILL.md) | 提示词型 | **19.9 元/次** | 一句话生成完整PPT大纲+逐页内容，10套行业模板 |
-| 3 | [合同风险扫描仪](./contract_scanner/SKILL.md) | 提示词 + 知识库 | **29.9 元/次** | 逐条扫描风险条款，红黄绿标注+法条依据+修改建议 |
-| 4 | [小红书爆款文案生成器](./xiaohongshu_writer/SKILL.md) | 提示词 + 联网搜索 | **9.9 元/次** | 5版标题+正文+标签+配图建议+发布策略 |
-| 5 | [体检报告解读助手](./health_report_reader/SKILL.md) | 提示词 + 知识库 | **19.9 元/次** | 逐项解读指标含义，异常标注+就医/生活方式建议 |
+| 1 | [简历优化大师](./resume_optimizer（简历优化大师）/SKILL.md) | 提示词 + 工作流 | **9.9 元/次** | ATS关键词匹配 + STAR法则改写，提升面试邀约率 |
+| 2 | [一句话PPT生成器](./ppt_generator（一句话PPT生成器）/SKILL.md) | 提示词型 | **19.9 元/次** | 一句话生成完整PPT大纲+逐页内容，10套行业模板 |
+| 3 | [合同风险扫描仪](./contract_scanner（合同风险扫描仪）/SKILL.md) | 提示词 + 知识库 | **29.9 元/次** | 逐条扫描风险条款，红黄绿标注+法条依据+修改建议 |
+| 4 | [小红书爆款文案生成器](./xiaohongshu_writer（小红书爆款文案生成器）/SKILL.md) | 提示词 + 联网搜索 | **9.9 元/次** | 5版标题+正文+标签+配图建议+发布策略 |
+| 5 | [体检报告解读助手](./health_report_reader（体检报告解读助手）/SKILL.md) | 提示词 + 知识库 | **19.9 元/次** | 逐项解读指标含义，异常标注+就医/生活方式建议 |
 
 ## 🚀 快速使用
 
@@ -26,9 +26,9 @@
 
 ```bash
 # 进入对应 Skill 目录，打包为 .zip
-cd resume_optimizer
+cd resume_optimizer（简历优化大师）
 zip -r resume_optimizer.skill *
-
+```
 # 在扣子编程中上传
 # 打开 https://code.coze.cn → 技能 → 上传技能文件包
 ```
@@ -39,7 +39,7 @@ zip -r resume_optimizer.skill *
 coze-skills/
 ├── README.md                          ← 项目说明书
 ├── .gitignore
-├── resume_optimizer/                  ← ① 简历优化大师
+├── resume_optimizer（简历优化大师）/          ← ① 简历优化大师
 │   ├── SKILL.md
 │   ├── references/
 │   │   ├── ats_keywords.md
@@ -50,7 +50,7 @@ coze-skills/
 │   │   └── keyword_matcher.py
 │   └── assets/
 │       └── store_listing.md
-├── ppt_generator/                     ← ② 一句话PPT生成器
+├── ppt_generator（一句话PPT生成器）/          ← ② 一句话PPT生成器
 │   ├── SKILL.md
 │   ├── references/
 │   │   ├── chart_suggestions.md
@@ -58,21 +58,21 @@ coze-skills/
 │   │   └── templates.md
 │   └── assets/
 │       └── store_listing.md
-├── contract_scanner/                  ← ③ 合同风险扫描仪
+├── contract_scanner（合同风险扫描仪）/        ← ③ 合同风险扫描仪
 │   ├── SKILL.md
 │   ├── references/
 │   │   ├── legal_basics.md
 │   │   └── risk_patterns.md
 │   └── assets/
 │       └── store_listing.md
-├── xiaohongshu_writer/                ← ④ 小红书爆款文案生成器
+├── xiaohongshu_writer（小红书爆款文案生成器）/ ← ④ 小红书爆款文案生成器
 │   ├── SKILL.md
 │   ├── references/
 │   │   ├── niche_terms.md
 │   │   └── title_formulas.md
 │   └── assets/
 │       └── store_listing.md
-└── health_report_reader/              ← ⑤ 体检报告解读助手
+└── health_report_reader（体检报告解读助手）/   ← ⑤ 体检报告解读助手
     ├── SKILL.md
     ├── references/
     │   ├── indicator_guide.md
